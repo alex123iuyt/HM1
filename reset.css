@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+img {
+    display: flex;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: unset;
+    text-decoration: none;
+    color: #333;
+}
+
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -0.4px;
+    overscroll-behavior: contain;
+}
+
+html {
+    height: auto;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+button {
+    outline: none !important;
+
+}
